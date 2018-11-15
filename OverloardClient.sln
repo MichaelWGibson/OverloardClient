@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverloardClient", "OverloardClient\OverloardClient.csproj", "{3553B760-5FA8-4A1E-A519-226E3AED5CA6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{617CAEAA-608C-4FF1-8680-DD818FDC5311} = {617CAEAA-608C-4FF1-8680-DD818FDC5311}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlordCore", "OverlordCore\OverlordCore.csproj", "{617CAEAA-608C-4FF1-8680-DD818FDC5311}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3553B760-5FA8-4A1E-A519-226E3AED5CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3553B760-5FA8-4A1E-A519-226E3AED5CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3553B760-5FA8-4A1E-A519-226E3AED5CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3553B760-5FA8-4A1E-A519-226E3AED5CA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{617CAEAA-608C-4FF1-8680-DD818FDC5311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{617CAEAA-608C-4FF1-8680-DD818FDC5311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{617CAEAA-608C-4FF1-8680-DD818FDC5311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{617CAEAA-608C-4FF1-8680-DD818FDC5311}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0766C7DC-26E9-40E1-B7A8-929F6E834A7B}
+	EndGlobalSection
+EndGlobal
