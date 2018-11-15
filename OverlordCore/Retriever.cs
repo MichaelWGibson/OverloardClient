@@ -25,7 +25,7 @@ namespace OverlordCore
             return Process.GetProcesses()
                 .Where(p => p.MainWindowHandle.ToInt32() > 0)
                 .Select(p => new Entry { ImageName = p.ProcessName, MemUsage = p.WorkingSet64 })
-                .Distinct()
+                .DistinctBy(e => e.ImageName, null)
                 .ToList();
         }
 
