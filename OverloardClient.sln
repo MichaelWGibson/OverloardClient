@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverloardClient", "Overloar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlordCore", "OverlordCore\OverlordCore.csproj", "{617CAEAA-608C-4FF1-8680-DD818FDC5311}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlordService", "OverlordService\OverlordService.csproj", "{35003B70-DADB-4228-B501-10F57D246A1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{617CAEAA-608C-4FF1-8680-DD818FDC5311}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{617CAEAA-608C-4FF1-8680-DD818FDC5311}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{617CAEAA-608C-4FF1-8680-DD818FDC5311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35003B70-DADB-4228-B501-10F57D246A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35003B70-DADB-4228-B501-10F57D246A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35003B70-DADB-4228-B501-10F57D246A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35003B70-DADB-4228-B501-10F57D246A1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -22,7 +22,6 @@ namespace OverloardClient
                 server.CheckIn(checkin);
                 Thread.Sleep(2000);
             }
-            Console.Read();
         }
     }
 }
